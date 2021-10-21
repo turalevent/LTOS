@@ -57,7 +57,7 @@ typedef enum ltos_error ltosError_t;
   * @retval result:
   * 		1- LTOS_ERR_MAGIC_CRASH
   */
-ltosError_t LTOS_runOS(void);
+ltosError_t LTOS_run(void);
 
 /**
   * @brief  Allocate new Oneshot
