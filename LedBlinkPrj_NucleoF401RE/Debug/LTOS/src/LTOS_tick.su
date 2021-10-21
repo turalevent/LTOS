@@ -1,0 +1,5 @@
+LTOS_tick.c:19:8:LTOS_getTick	16	static
+LTOS_tick.c:35:6:LTOS_tickInit	4	static
+LTOS_tick.c:45:6:LTOS_tickIncrease	4	static
+LTOS_tick.c:55:10:LTOS_tick2us	8	static
+LTOS_tick.c:69:10:LTOS_tick2ms	8	static
