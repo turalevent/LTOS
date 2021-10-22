@@ -1,6 +1,6 @@
 LTOS_oneshot.c:24:6:oneshotInit	24	static
-LTOS_oneshot.c:57:6:oneshotFree	24	static
-LTOS_oneshot.c:83:13:LTOS_run	32	static
-LTOS_oneshot.c:148:13:LTOS_oneshotAttach	48	static
-LTOS_oneshot.c:179:12:LTOS_oneshotAlloc	16	static
-LTOS_oneshot.c:205:13:LTOS_oneshotFree	16	static
+LTOS_oneshot.c:55:6:oneshotFree	24	static
+LTOS_oneshot.c:81:13:LTOS_run	32	static
+LTOS_oneshot.c:146:13:LTOS_oneshotAttach	48	static
+LTOS_oneshot.c:177:12:LTOS_oneshotAlloc	16	static
+LTOS_oneshot.c:203:13:LTOS_oneshotFree	16	static

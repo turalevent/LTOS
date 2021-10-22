@@ -18,10 +18,10 @@ Core/Src/stm32f4xx_it.o: ../Core/Src/stm32f4xx_it.c ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h \
- D:/google_drive_sync/prj/LTOS/LTOS_prj/LTOS/inc/LTOS_tick.h \
- D:/google_drive_sync/prj/LTOS/LTOS_prj/LTOS/inc/LTOS_config.h \
- D:/google_drive_sync/prj/LTOS/LTOS_prj/LTOS/inc/LTOS_oneshot.h \
- D:/google_drive_sync/prj/LTOS/LTOS_prj/Blink/inc/Blink.h \
+ D:/google_drive_sync/prj/GitHub/LTOS/LedBlinkPrj_NucleoF401RE/LTOS/inc/LTOS_tick.h \
+ D:/google_drive_sync/prj/GitHub/LTOS/LedBlinkPrj_NucleoF401RE/LTOS/inc/LTOS_config.h \
+ D:/google_drive_sync/prj/GitHub/LTOS/LedBlinkPrj_NucleoF401RE/LTOS/inc/LTOS_oneshot.h \
+ D:/google_drive_sync/prj/GitHub/LTOS/LedBlinkPrj_NucleoF401RE/Blink/inc/Blink.h \
  ../Core/Inc/stm32f4xx_it.h
 
 ../Core/Inc/main.h:
@@ -64,12 +64,12 @@ Core/Src/stm32f4xx_it.o: ../Core/Src/stm32f4xx_it.c ../Core/Inc/main.h \
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h:
 
-D:/google_drive_sync/prj/LTOS/LTOS_prj/LTOS/inc/LTOS_tick.h:
+D:/google_drive_sync/prj/GitHub/LTOS/LedBlinkPrj_NucleoF401RE/LTOS/inc/LTOS_tick.h:
 
-D:/google_drive_sync/prj/LTOS/LTOS_prj/LTOS/inc/LTOS_config.h:
+D:/google_drive_sync/prj/GitHub/LTOS/LedBlinkPrj_NucleoF401RE/LTOS/inc/LTOS_config.h:
 
-D:/google_drive_sync/prj/LTOS/LTOS_prj/LTOS/inc/LTOS_oneshot.h:
+D:/google_drive_sync/prj/GitHub/LTOS/LedBlinkPrj_NucleoF401RE/LTOS/inc/LTOS_oneshot.h:
 
-D:/google_drive_sync/prj/LTOS/LTOS_prj/Blink/inc/Blink.h:
+D:/google_drive_sync/prj/GitHub/LTOS/LedBlinkPrj_NucleoF401RE/Blink/inc/Blink.h:
 
 ../Core/Inc/stm32f4xx_it.h:

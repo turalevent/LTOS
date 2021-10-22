@@ -45,8 +45,6 @@ void oneshotInit(oneshot_t *os)
         }
         osp->nosp = os;
     }
-    
-    os->nosp = NULL;
 }
 
 /**
