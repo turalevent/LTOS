@@ -1,0 +1,15 @@
+stm32f4xx_ll_dma.h:495:22:LL_DMA_EnableStream	16	static
+stm32f4xx_ll_dma.h:515:22:LL_DMA_DisableStream	16	static
+stm32f4xx_ll_dma.h:969:22:LL_DMA_SetDataLength	24	static
+stm32f4xx_ll_dma.h:1403:22:LL_DMA_ConfigAddresses	24	static
+stm32f4xx_ll_dma.h:2244:22:LL_DMA_ClearFlag_TC6	16	static
+stm32f4xx_ll_dma.h:2587:22:LL_DMA_EnableIT_TC	16	static
+stm32f4xx_ll_usart.h:2350:22:LL_USART_EnableDMAReq_TX	40	static,ignoring_inline_asm
+stm32f4xx_ll_usart.h:2384:26:LL_USART_DMA_GetRegAddr	16	static
+stm32f4xx_ll_usart.h:2404:25:LL_USART_ReceiveData8	16	static
+async_comm.c:37:6:initASC	24	static
+async_comm.c:60:14:ASC_tx	16	static
+async_comm.c:90:14:ASC_rx	24	static
+async_comm.c:116:6:ascTASK	16	static
+async_comm.c:130:6:ASC_TXDMA_IRQHandler	8	static
+async_comm.c:143:6:ASC_UARX_IRQHandler	24	static
