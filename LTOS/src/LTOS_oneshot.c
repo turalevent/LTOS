@@ -18,7 +18,7 @@ void oneshotInit(oneshot_t *os);
 
 /**
   * @brief  Init Oneshot module
-  * @param	None
+  * @param	*os : Oneshot pointer will be initialized.
   * @retval None
   */
 void oneshotInit(oneshot_t *os)
@@ -35,7 +35,7 @@ void oneshotInit(oneshot_t *os)
 	os->callback = NULL;
 	os->arg = 0;
 #ifdef LTOS_GARBAGE_COLL_TOUT
-	os->killTm		= time_now + LTOS_GARBAGE_COLL_TOUT;
+	os->killTm	= time_now + LTOS_GARBAGE_COLL_TOUT;
 #endif
 	os->isEnabled = false;
 	os->isOverflowed = false;
