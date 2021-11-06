@@ -23,13 +23,20 @@ void oneshotInit(oneshot_t *os);
   */
 void oneshotInit(oneshot_t *os)
 {
+	tick_t time_now;
+
     oneshot_t *osp = NULL;
+
+    time_now = LTOS_getTick();
 
 #ifdef LTOS_MAGIC
     os->magic = LTOS_MAGIC;
 #endif
 	os->callback = NULL;
 	os->arg = 0;
+#ifdef LTOS_GARBAGE_COLL_TOUT
+	os->killTm		= time_now + LTOS_GARBAGE_COLL_TOUT;
+#endif
 	os->isEnabled = false;
 	os->isOverflowed = false;
 	os->nosp = NULL;
@@ -45,8 +52,6 @@ void oneshotInit(oneshot_t *os)
         }
         osp->nosp = os;
     }
-    
-    os->nosp = NULL;
 }
 
 /**
@@ -107,7 +112,7 @@ ltosError_t LTOS_run(void)
             }
             // Garbage collection
 #ifdef LTOS_GARBAGE_COLL_TOUT
-        	if(os->killTm >= tickNow) {
+        	if(os->killTm <= tickNow) {
         		oneshotFree(os);
         	}
 #endif
