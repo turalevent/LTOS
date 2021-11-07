@@ -19,9 +19,8 @@ Core/Src/tim.o: ../Core/Src/tim.c ../Core/Inc/tim.h ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h \
  D:/google_drive_sync/prj/GitHub/LTOS/AsyncUartCommPrj_NucleoF401RE/AsyncComm/inc/async_comm.h \
- D:/google_drive_sync/prj/GitHub/LTOS/AsyncUartCommPrj_NucleoF401RE/LTOS/inc/LTOS_tick.h \
- D:/google_drive_sync/prj/GitHub/LTOS/AsyncUartCommPrj_NucleoF401RE/LTOS/inc/LTOS_config.h \
- D:/google_drive_sync/prj/GitHub/LTOS/AsyncUartCommPrj_NucleoF401RE/LTOS/inc/LTOS_oneshot.h \
+ ../../LTOS/inc/LTOS_tick.h ../../LTOS/inc/LTOS_config.h \
+ ../../LTOS/inc/LTOS_oneshot.h \
  D:/google_drive_sync/prj/GitHub/LTOS/AsyncUartCommPrj_NucleoF401RE/Demo/inc/demo.h \
  D:/google_drive_sync/prj/GitHub/LTOS/AsyncUartCommPrj_NucleoF401RE/Blink/inc/Blink.h
 
@@ -69,11 +68,11 @@ Core/Src/tim.o: ../Core/Src/tim.c ../Core/Inc/tim.h ../Core/Inc/main.h \
 
 D:/google_drive_sync/prj/GitHub/LTOS/AsyncUartCommPrj_NucleoF401RE/AsyncComm/inc/async_comm.h:
 
-D:/google_drive_sync/prj/GitHub/LTOS/AsyncUartCommPrj_NucleoF401RE/LTOS/inc/LTOS_tick.h:
+../../LTOS/inc/LTOS_tick.h:
 
-D:/google_drive_sync/prj/GitHub/LTOS/AsyncUartCommPrj_NucleoF401RE/LTOS/inc/LTOS_config.h:
+../../LTOS/inc/LTOS_config.h:
 
-D:/google_drive_sync/prj/GitHub/LTOS/AsyncUartCommPrj_NucleoF401RE/LTOS/inc/LTOS_oneshot.h:
+../../LTOS/inc/LTOS_oneshot.h:
 
 D:/google_drive_sync/prj/GitHub/LTOS/AsyncUartCommPrj_NucleoF401RE/Demo/inc/demo.h:
 

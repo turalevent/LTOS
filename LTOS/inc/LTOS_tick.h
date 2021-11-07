@@ -40,6 +40,7 @@
 #define _250ms			(uint64_t)(250*_1ms)
 #define _500ms			(uint64_t)(500*_1ms)
 #define _800ms			(uint64_t)(800*_1ms)
+#define _900ms			(uint64_t)(900*_1ms)
 #define _1sec			(uint64_t)(1000*_1ms)
 #define _2sec			(uint64_t)(2*_1sec)
 #define _3sec			(uint64_t)(3*_1sec)

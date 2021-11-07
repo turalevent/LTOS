@@ -26,5 +26,5 @@ Core/Src \
 Core/Startup \
 Demo/src \
 Drivers/STM32F4xx_HAL_Driver/Src \
-LTOS/src \
+src \
 
